@@ -51,10 +51,9 @@ gives you one place to browse, understand, edit, and share it.
 
 1. Download the `.dmg` from **[Releases](../../releases/latest)**, open it, and drag
    **Agent Astronomer** into Applications.
-2. **First launch:** this build is not yet notarized, so macOS Gatekeeper will warn.
-   **Right-click the app → Open**, then confirm. (Or run
-   `xattr -dr com.apple.quarantine "/Applications/Agent Astronomer.app"`.)
-3. Open it — it scans your machine automatically. No configuration required.
+2. Launch it — signed with Developer ID and **notarized by Apple**, so it opens with
+   no Gatekeeper warning.
+3. It scans your machine automatically. No configuration required.
 
 **Requirements:** macOS 14 (Sonoma) or later · Apple Silicon.
 
