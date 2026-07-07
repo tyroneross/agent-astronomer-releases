@@ -36,6 +36,10 @@ gives you one place to browse, understand, edit, and share it.
 - **Two-axis clarity** — every item shows its **source** (`MINE` vs `EXTERNAL` + vendor)
   and its **runtime** (`CLAUDE`, `CODEX`, or both), so you always know what it is and
   where it runs.
+- **Toggle plugins per host** — enable or disable any plugin independently on
+  **Claude Code** and **Codex** from one view; a plugin can be on for one and off for
+  the other. Changes write straight to your live configs — safely, with a backup and
+  one-click undo.
 - **Edit safely, archive-first** — every edit snapshots the original before writing in
   place, so traces, connections, and dependencies survive. Full version history included.
 - **Import anything** — register a local folder, clone a GitHub repo, or paste a
